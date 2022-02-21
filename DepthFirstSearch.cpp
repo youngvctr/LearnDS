@@ -9,11 +9,13 @@ vector<int> a[8];
 
 void dfs(int x){ //재귀함수 형태 
 	if(c[x]) return;
-	c[x] = true;
-	cout << x << ' ';
-	for(int i=0; i < a[x].size(); i++){
-		int y = a[x][i];
-		dfs(y);
+	else{
+		c[x] = true;
+		cout << x << ' ';
+		for(int i=0; i < a[x].size(); i++){
+			int y = a[x][i];
+			dfs(y);
+		}
 	}
 }
 
