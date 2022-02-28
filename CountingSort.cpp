@@ -27,3 +27,6 @@ int main(void){
 	
 	return 0;
 }
+
+//Counting sort의 시간복잡도 =  O(N)
+//한정된 데이터에서 빠른 속도의 정렬을 구현할 수 있음. 
